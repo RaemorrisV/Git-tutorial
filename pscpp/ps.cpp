@@ -51,7 +51,7 @@ int main()
   {
     cin >> arr[i];
   }
-  sort(arr + 1, arr + n + 1); //이분 탐색을 위한 sort함수를 사용 해주고
+  sort(arr + 1, arr + n + 1); //이분 탐색을 위한 sort를 위해서
 
   cout << binarysearch(0,arr[n], n, m) << '\n';
   return 0;
